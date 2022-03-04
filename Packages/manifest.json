@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.assetbundlebrowser": "1.7.0",
     "com.unity.cinemachine": "2.7.3",
     "com.unity.collab-proxy": "1.5.7",
     "com.unity.ide.rider": "3.0.7",

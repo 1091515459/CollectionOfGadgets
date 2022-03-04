@@ -1,0 +1,86 @@
+{
+	"数据对接方式":"SQLite",//DIX;CDP;MySQL;SQLite
+	"DIX配置项":{
+		"获取数据形式": "ThingJs_DataBase",
+		"配置项": {
+			"研发中心":{
+				"requestUrl": "http://192.168.21.146:10012/http/rest/ibv/yangyali",
+				"wwwForm": {
+					"sqlcommand": "",
+					"pagenum": "0",
+					"pagesize": "1000"
+				}
+			},
+			"软件园":{
+				"requestUrl": "http://192.168.21.146:10091/ibv/softwarecenter",
+				"wwwForm": {
+					"sqlcommand": "",
+					"pagenum": "0",
+					"pagesize": "1000"
+				}
+			},
+			"创业园":{
+				"requestUrl": "http://192.168.21.146:10086/http/rest/ibv/dbdata",
+				"wwwForm": {
+					"sqlcommand": "",
+					"pagenum": "0",
+					"pagesize": "1000"
+				}
+			},
+			"龙湖金融岛":{
+				"requestUrl": "http://192.168.21.146:10086/http/rest/ibv/dbdata",
+				"wwwForm": {
+					"sqlcommand": "",
+					"pagenum": "0",
+					"pagesize": "1000"
+				}
+			},
+			"default":{
+				"requestUrl": "http://192.168.21.146:10011/ibv/rdcenter",
+				"wwwForm": {
+					"sqlcommand": "",
+					"pagenum": "0",
+					"pagesize": "1000"
+				}
+			}
+		}
+	},
+	"MQTT配置项": {
+		"connect":false,
+		"ip" : "119.23.143.140",
+		"port" : "5883",
+		"user" : "admin",
+		"password" : "uinnova_2018_Fj23"
+	},
+	"MySql配置项":{
+		"host": "192.168.21.146",
+		"port": 1541,
+		"user": "uinnova",
+		"password": "Uinnova@123",
+		"database": {
+			"研发中心":"rdcenter",
+			"软件园":"softwarecenter",
+			"创业园":"rdcenter",
+			"龙湖金融岛":"softwarecenter",
+			"default":"rdcenter"
+		}
+	},
+	"反控配置项":{
+		"链接1":{
+			"url":"http://192.168.21.146:10087/ThingJet/ReverseControl",
+			"postData":{
+				"deviceName":"",
+				"type":"",
+				"value":""
+			}
+		},
+		"链接2":{
+			"url":"http://192.168.21.146:10087/ThingJet/ReverseControl",
+			"postData":{
+				"deviceName":"",
+				"type":"",
+				"value":""
+			}
+		}
+	}
+}
