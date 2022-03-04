@@ -63,7 +63,6 @@ namespace RandomSizeGen
                 {
                     foreach (Transform child in this.transform)
                     {
-                        if (child == transform) continue;
                         var p = child.position;
                         var s = child.localScale;
                         var tr = child.eulerAngles;
@@ -97,9 +96,7 @@ namespace RandomSizeGen
                         //     child.position = new Vector3(transform.position.x, transform.position.y,
                         //         transform.position.z + 间隔 * child.GetSiblingIndex());
                     }
-
                 }
-                
             }
             else if (m == Model.作用于自己)
             {
@@ -113,10 +110,35 @@ namespace RandomSizeGen
             }
             else if (m == Model.重置)
             {
-                foreach (var child in TMap)
+                //ZX 2022-03-04 10:27 [还原]
+                // foreach (var child in TMap)
+                // {
+                //     child.Key.localScale = child.Value[0];
+                //     child.Key.eulerAngles = child.Value[1];
+                // }
+                //ZX 2022-03-04 10:27 [重置]
+                float s = 放大倍数;
+                if (单级子物体)
                 {
-                    child.Key.localScale = child.Value[0];
-                    child.Key.eulerAngles = child.Value[1];
+                    foreach (Transform child in this.transform)
+                    {
+                        child.localScale = new Vector3(s, s, s);
+                        child.eulerAngles = new Vector3(0, 0, 0);
+                    }
+                }
+                else if (模式 == Model.作用于自己)
+                {
+                    transform.localScale = new Vector3(s, s, s);
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                }
+                else
+                {
+                    var grandFa = GetComponentsInChildren<Transform>(true);
+                    foreach (Transform child in grandFa)
+                    {
+                        child.localScale = new Vector3(s, s, s);
+                        child.eulerAngles = new Vector3(0, 0, 0);
+                    }
                 }
             }
         }
