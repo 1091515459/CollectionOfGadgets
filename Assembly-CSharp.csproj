@@ -42,15 +42,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\GammaSpaceUI\CompressTextures.cs" />
+     <Compile Include="Assets\AssetBundleExport\AssetBundleExportModel.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\RandomSizeGen\RandomSizeGenHelper.cs" />
+     <Compile Include="Assets\AssetBundleExport\AssetBundleExport.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\RandomSizeGen\RandomSizeGen.cs" />
      <Compile Include="Assets\GammaSpaceUI\GammaSpaceUI.cs" />
+     <Compile Include="Assets\Samples\Simple MinMax Slider\1.1.2\Example Scene\MinMaxSliderExample.cs" />
      <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
-     <Compile Include="Assets\AssetBundleExport\AssetBundleExport.cs" />
-     <Compile Include="Assets\AssetBundleExport\AssetBundleExportModel.cs" />
      <None Include="Assets\GammaSpaceUI\UI-Default.shader" />
      <None Include="Assets\DataDockingConfig.json" />
      <None Include="Assets\GammaSpaceUI\GammaSpaceUI.shader" />
@@ -649,9 +648,9 @@
       <Project>{4c003ae0-5565-a9a6-f032-8a3994dbd768}</Project>
       <Name>Unity.VisualEffectGraph.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="SimpleMinMaxSlider.csproj">
-      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
-      <Name>SimpleMinMaxSlider</Name>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{387f35a9-08ad-a4ec-2951-32fc1c25c500}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{ca8de784-21b5-06fd-9724-40fb0fc940e9}</Project>
@@ -769,9 +768,9 @@
       <Project>{f9980715-d3d0-b14a-8005-4701b64a57c2}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
-      <Project>{387f35a9-08ad-a4ec-2951-32fc1c25c500}</Project>
-      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    <ProjectReference Include="SimpleMinMaxSlider.csproj">
+      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
+      <Name>SimpleMinMaxSlider</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,6 @@
-﻿namespace GD.MinMaxSlider
+﻿#if UNITY_EDITOR
+
+namespace GD.MinMaxSlider
 {
     using UnityEngine;
 
@@ -14,3 +16,4 @@
         }
     }  
 }
+#endif

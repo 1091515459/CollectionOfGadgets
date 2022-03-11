@@ -42,15 +42,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\GammaSpaceUI\CompressTextures.cs" />
+     <Compile Include="Assets\AssetBundleExport\AssetBundleExportModel.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\RandomSizeGen\RandomSizeGenHelper.cs" />
+     <Compile Include="Assets\AssetBundleExport\AssetBundleExport.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\RandomSizeGen\RandomSizeGen.cs" />
      <Compile Include="Assets\GammaSpaceUI\GammaSpaceUI.cs" />
+     <Compile Include="Assets\Samples\Simple MinMax Slider\1.1.2\Example Scene\MinMaxSliderExample.cs" />
      <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
-     <Compile Include="Assets\AssetBundleExport\AssetBundleExport.cs" />
-     <Compile Include="Assets\AssetBundleExport\AssetBundleExportModel.cs" />
      <None Include="Assets\GammaSpaceUI\UI-Default.shader" />
      <None Include="Assets\DataDockingConfig.json" />
      <None Include="Assets\GammaSpaceUI\GammaSpaceUI.shader" />
@@ -605,10 +604,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="SimpleMinMaxSlider.csproj">
-      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
-      <Name>SimpleMinMaxSlider</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
       <Project>{b086de23-7298-9b2c-ff4d-7c2ef8fd5987}</Project>
       <Name>Unity.VisualEffectGraph.Runtime</Name>
@@ -664,6 +659,10 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{f9980715-d3d0-b14a-8005-4701b64a57c2}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleMinMaxSlider.csproj">
+      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
+      <Name>SimpleMinMaxSlider</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

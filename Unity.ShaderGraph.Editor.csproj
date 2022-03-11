@@ -161,8 +161,8 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\IdentifierField.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Extensions\StencilExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Artistic\Adjustment\HueNode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Enumerations\IncludeLocation.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Util\FunctionRegistry.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Enumerations\IncludeLocation.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Math\Trigonometry\SineNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Math\Vector\ProjectionNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Gradient\BlackbodyNode.cs" />

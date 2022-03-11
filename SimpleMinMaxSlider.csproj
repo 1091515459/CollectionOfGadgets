@@ -42,8 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderDrawer.cs" />
-     <Compile Include="Assets\RandomSizeGen\SimpleMinMaxSlider\Scripts\MinMaxSliderAttribute.cs" />
-     <None Include="Assets\RandomSizeGen\SimpleMinMaxSlider\SimpleMinMaxSlider.asmdef" />
+     <Compile Include="Assets\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderAttribute.cs" />
+     <None Include="Assets\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\SimpleMinMaxSlider.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity 2021.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

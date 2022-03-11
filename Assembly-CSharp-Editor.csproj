@@ -43,6 +43,10 @@
   <ItemGroup>
      <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <Compile Include="Assets\creatMask\Editor\Gq_Tools\creatMask\myTool1.cs" />
+     <Compile Include="Assets\RandomSizeGen\Editor\RandomSizeGen.cs" />
+     <Compile Include="Assets\RandomSizeGen\Editor\ShowAssetIds.cs" />
+     <Compile Include="Assets\RandomSizeGen\Editor\RandomSizeGenModel.cs" />
+     <Compile Include="Assets\RandomSizeGen\Editor\RandomSizeGenHelper.cs" />
      <None Include="Assets\creatMask\Editor\Gq_Tools\creatMask\creatMask.shader" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity 2021.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -678,9 +682,9 @@
       <Project>{4c003ae0-5565-a9a6-f032-8a3994dbd768}</Project>
       <Name>Unity.VisualEffectGraph.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="SimpleMinMaxSlider.csproj">
-      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
-      <Name>SimpleMinMaxSlider</Name>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{387f35a9-08ad-a4ec-2951-32fc1c25c500}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{ca8de784-21b5-06fd-9724-40fb0fc940e9}</Project>
@@ -798,9 +802,9 @@
       <Project>{f9980715-d3d0-b14a-8005-4701b64a57c2}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
-      <Project>{387f35a9-08ad-a4ec-2951-32fc1c25c500}</Project>
-      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    <ProjectReference Include="SimpleMinMaxSlider.csproj">
+      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
+      <Name>SimpleMinMaxSlider</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

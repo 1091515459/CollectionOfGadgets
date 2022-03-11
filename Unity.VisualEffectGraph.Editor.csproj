@@ -164,13 +164,13 @@
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\PackageInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Operators\Implementations\SpawnState.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\VFXGraph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Operators\Implementations\Atan.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Controls\VFXStringFieldPushButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Operators\Implementations\Asin.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\GraphView\Elements\Controllers\VFXSettingController.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Utils\VFXSystemBorder.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Expressions\VFXExpressionSampleTextureCubeArray.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Controls\VFXStringField.cs" />
+     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Operators\Implementations\Atan.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Blocks\Implementations\FlipBook\FlipbookPlay.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Controls\VFXVector3Field.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@11.0.0\Editor\Models\Slots\Implementations\VFXSlotGradient.cs" />

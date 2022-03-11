@@ -41,24 +41,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetListTree.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleDataSource\ABDataSourceProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleTree.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\AssetBundleRecord.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleBrowserMain.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\InspectTreeView.cs" />
      <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs" />
      <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\AssetBundleInspectTab.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleManageTab.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleModel\ABModelAssetInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleDataSource\ABDataSource.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleModel\ABModelBundleInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\MessageList.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetListTree.cs" />
      <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\InspectSingleBundle.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\MessageSystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\AssetBundleRecord.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleBrowserMain.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleManageTab.cs" />
      <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\BundleDetailList.cs" />
-     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleBuildTab.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\MessageSystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleDataSource\ABDataSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleDataSource\ABDataSourceProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleTree.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleModel\ABModelAssetInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleModel\ABModel.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleBuildTab.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\InspectTab\InspectTreeView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\MessageList.cs" />
+     <Compile Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\AssetBundleModel\ABModelBundleInfo.cs" />
      <None Include="Library\PackageCache\com.unity.assetbundlebrowser@1.7.0\Editor\Unity.AssetBundleBrowser.Editor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity 2021.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
