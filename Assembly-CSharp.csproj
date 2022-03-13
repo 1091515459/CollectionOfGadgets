@@ -42,13 +42,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\GammaSpaceUI\CompressTextures.cs" />
-     <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
      <Compile Include="Assets\SampleSceneAssets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\GammaSpaceUI\GammaSpaceUI.cs" />
      <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
      <None Include="Assets\GammaSpaceUI\UI-Default.shader" />
      <None Include="Assets\DataDockingConfig.json" />
+     <None Include="Assets\ForArtist\AssetBundleExport\package.json" />
      <None Include="Assets\GammaSpaceUI\GammaSpaceUI.shader" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity 2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -674,14 +675,26 @@
      <Reference Include="Unity.AssetBundleBrowser.Editor">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -716,23 +729,11 @@
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:/user/home/CollectionOfGadgets/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
