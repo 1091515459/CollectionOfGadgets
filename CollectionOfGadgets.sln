@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMinMaxSlider", "SimpleMinMaxSlider.csproj", "{cf85e6b1-1599-4573-58b1-5c1798f192c8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{25400c5f-0052-bac0-ff94-2f378a4716bf}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{b41c49d0-1b38-0122-138e-e7461bc965cd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{25400c5f-0052-bac0-ff94-2f378a4716bf}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,10 +14,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{cf85e6b1-1599-4573-58b1-5c1798f192c8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cf85e6b1-1599-4573-58b1-5c1798f192c8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25400c5f-0052-bac0-ff94-2f378a4716bf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25400c5f-0052-bac0-ff94-2f378a4716bf}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b41c49d0-1b38-0122-138e-e7461bc965cd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b41c49d0-1b38-0122-138e-e7461bc965cd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25400c5f-0052-bac0-ff94-2f378a4716bf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25400c5f-0052-bac0-ff94-2f378a4716bf}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
