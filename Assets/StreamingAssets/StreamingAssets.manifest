@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2869496916
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gameobject
+      Dependencies: {}
