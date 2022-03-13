@@ -346,3 +346,4 @@ Received Import Request.
   path: Assets/RandomSizeGen/Editor/RandomSizeGen.cs
   artifactKey: Guid(97fff4104ab4e694182b5a1946b0dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/RandomSizeGen/Editor/RandomSizeGen.cs using Guid(97fff4104ab4e694182b5a1946b0dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c9fdd5c4c3d3e63c13cc85496813aa') in 0.006533 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
