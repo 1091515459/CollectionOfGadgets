@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1f54d9bc-dc70-08a8-568a-0130b81c7dc9}</ProjectGuid>
+    <ProjectGuid>{08aa10c2-366b-e0bb-6c75-2909925addfa}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>SimpleMinMaxSlider</AssemblyName>
+    <AssemblyName>RandomSizeGen</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -41,9 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderDrawer.cs" />
-     <Compile Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderAttribute.cs" />
-     <None Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\SimpleMinMaxSlider.asmdef" />
+     <Compile Include="Assets\ForArtist\Runtime\RandomSizeGen\Editor\RandomSizeGen.cs" />
+     <Compile Include="Assets\ForArtist\Runtime\RandomSizeGen\Editor\RandomSizeGenHelper.cs" />
+     <Compile Include="Assets\ForArtist\Runtime\RandomSizeGen\Editor\RandomSizeGenModel.cs" />
+     <Compile Include="Assets\ForArtist\Runtime\RandomSizeGen\Editor\ShowAssetIds.cs" />
+     <None Include="Assets\ForArtist\Runtime\RandomSizeGen\Editor\RandomSizeGen.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
      </Reference>
@@ -619,6 +621,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SimpleMinMaxSlider.csproj">
+      <Project>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</Project>
+      <Name>SimpleMinMaxSlider</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{4fd75a8e-bbbc-6c9f-0729-96c8ce6702ab}</Project>
       <Name>UnityEngine.UI</Name>

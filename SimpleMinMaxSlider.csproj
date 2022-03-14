@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,9 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderDrawer.cs" />
-     <Compile Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderAttribute.cs" />
-     <None Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\SimpleMinMaxSlider.asmdef" />
+     <Compile Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderDrawer.cs" />
+     <Compile Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderAttribute.cs" />
+     <None Include="Assets\ForArtist\Runtime\SimpleMinMaxSlider\SimpleMinMaxSlider.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
