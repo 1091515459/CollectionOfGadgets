@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{cf85e6b1-1599-4573-58b1-5c1798f192c8}</ProjectGuid>
+    <ProjectGuid>{34f4f529-e441-8d35-bb52-95a652ed4d26}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>SimpleMinMaxSlider</AssemblyName>
+    <AssemblyName>Cinemachine</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,12 +25,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_2_2;UNITY_2021_2;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <OutputPath>Temp\Bin\Debug\Player\</OutputPath>
+    <DefineConstants>UNITY_2021_2_2;UNITY_2021_2;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CINEMACHINE_TIMELINE;CINEMACHINE_PHYSICS_2D;CINEMACHINE_PHYSICS;CINEMACHINE_UGUI;CINEMACHINE_UNITY_INPUTSYSTEM;CINEMACHINE_UNITY_ANIMATION;CINEMACHINE_UNITY_IMGUI;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,287 +41,292 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderDrawer.cs" />
-     <Compile Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\MinMaxSliderAttribute.cs" />
-     <None Include="Assets\ForArtist\User\RandomSizeGen\SimpleMinMaxSlider\Scripts\Editor\SimpleMinMaxSlider.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineDebug.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Helpers\CinemachineTriggerAction.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineCameraOffset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineHardLookAt.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Helpers\CinemachineInputProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Timeline\CinemachineTrack.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\Cinemachine3rdPersonFollow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\SignalSourceAsset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\AxisState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\RuntimeUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachinePixelPerfect.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineFramingTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\Predictor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\TargetPositionCache.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineIndependentImpulseListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Helpers\CinemachineTouchInputMapper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\Cinemachine3rdPersonAim.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineHardLockToTarget.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Helpers\GroupWeightManipulator.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineCollisionImpulseSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\UpdateTracker.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachinePOV.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Timeline\CinemachineShotPlayable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CameraState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineBlend.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineDollyCart.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineImpulseManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\PostProcessing\CinemachinePostProcessing.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineComponentBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineConfiner.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineSameAsFollowTarget.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineConfiner2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Experimental\CinemachineNewVirtualCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\ConfinerOven.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineImpulseSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineImpulseListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineExtension.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineFixedSignal.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Timeline\CinemachineShot.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Experimental\CinemachineNewFreeLook.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineStoryboard.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\SplineHelpers.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Impulse\CinemachineImpulseDefinition.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineRecomposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineInputAxisDriver.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\Core\CinemachineCore.cs" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.0\Runtime\com.unity.cinemachine.asmdef" />
      <Reference Include="UnityEngine">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ARModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AndroidJNIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AnimationModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AssetBundleModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CrashReportingModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DSPGraphModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DirectorModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GameCenterModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GridModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.HotReloadModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.IMGUIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ImageConversionModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputLegacyModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.JSONSerializeModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PerformanceReportingModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PhysicsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Physics2DModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ProfilerModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ScreenCaptureModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SharedInternalsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteMaskModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteShapeModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.StreamingModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubstanceModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubsystemsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TLSModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainPhysicsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreFontEngineModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreTextEngineModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextRenderingModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TilemapModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsNativeModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UNETModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UmbraModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityConnectModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityCurlModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityTestProtocolModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VFXModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VRModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VehiclesModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XRModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.CoreModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.DeviceSimulatorModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.DiagnosticsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.GraphViewModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.PackageManagerUIModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.QuickSearchModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.SceneTemplateModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TextCoreFontEngineModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TextCoreTextEngineModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIBuilderModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIElementsModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIElementsSamplesModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIServiceModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UnityConnectModule">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.Graphs">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.WebGL.Extensions">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-     <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
-     </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-     </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="clipper_library">
      <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.cinemachine@2.8.0/Runtime/ThirdParty/clipper_library.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>D:/user/homework/CollectionOfGadgets/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -691,9 +696,13 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{aae20ff5-ec98-c628-602c-ae9491edfbdd}</Project>
-      <Name>UnityEditor.UI</Name>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{b03709e1-d519-0ce6-5751-fc07fc6f4de6}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{c16690ea-5afa-afd3-bfc9-c0d3900a8313}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{4fd75a8e-bbbc-6c9f-0729-96c8ce6702ab}</Project>
