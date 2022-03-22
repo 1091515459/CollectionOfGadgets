@@ -41,7 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <None Include="Assets\fx\_IBV_\Resources\Shaders\Navigation\add 1.shader" />
+     <None Include="Assets\fx\shader\litFnl.shader" />
      <None Include="Assets\ForArtist\package.json" />
+     <None Include="Assets\fx\Shaders\Navigation\add.shader" />
+     <None Include="Assets\fx\shader\blend.shader" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

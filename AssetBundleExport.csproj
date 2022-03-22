@@ -44,6 +44,7 @@
      <Compile Include="Assets\ForArtist\Runtime\AssetBundleExport\Editor\AssetBundleExportHelper.cs" />
      <Compile Include="Assets\ForArtist\Runtime\AssetBundleExport\Editor\AssetBundleExport.cs" />
      <Compile Include="Assets\ForArtist\Runtime\AssetBundleExport\Editor\AssetBundleExportModel.cs" />
+     <Compile Include="Assets\ForArtist\Runtime\AssetBundleExport\Editor\AssetBundleExportQuick.cs" />
      <None Include="Assets\ForArtist\Runtime\AssetBundleExport\Editor\AssetBundleExport.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Program Files/Unity2021.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
